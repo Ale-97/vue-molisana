@@ -36,13 +36,19 @@ export default {
       display: flex;
       list-style: none;
       justify-content: center;
+      font-size: 14px;
+      font-weight: bold;
 
       li {
-          border: 1px solid black ;
         margin: 5px 0;
         height: 50px;
         line-height: 50px;
         padding: 0 10px;
+        cursor: pointer;
+
+        &:hover{
+            background: #cee;
+        }
       }
     }
   }
